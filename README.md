@@ -2,19 +2,19 @@
 
 mahasiswa_list = ["Aisyah", "Marna", "Rahma", "Analaili", "Rofi"]
 
-# Mengakses
+#Mengakses
 print("Daftar Nama Mahasiswa:", mahasiswa_list)
 print("Mahasiswa pertam:", mahasiswa_list[0])
 
-# Menambah
+#Menambah
 mahasiswa_list.append("Atilla")
 print("Setelah menambah Atilla:", mahasiswa_list)
 
-#  Menghapus
+#Menghapus
 mahasiswa_list.remove("Aisyah")
 print("Setelah menghapus Aisyah:", mahasiswa_list)
 
-# DICTIONARY
+#DICTIONARY
 
 mahasiswa = {
     "nama": "Saleha",
@@ -39,18 +39,18 @@ mahasiswa = {
     ]
 }
 
-# Menampilkan data
+#Menampilkan data
 print("\nData Mahasiswa:", mahasiswa)
 
-# Mengakses data
+#Mengakses data
 print("Nama:", mahasiswa["nama"])
 print("Kelas:", mahasiswa["kelas"])
 print("Nilai Python:", mahasiswa["nilai"]["pemrograman_python"])
 
-# Update nilai
+#Update nilai
 mahasiswa["nilai"]["pemrograman_python"] = 88
 print("Nilai Python Setelah Update:", mahasiswa["nilai"]["pemrograman_python"])
 
-# Menambah data baru
+#Menambah data baru
 mahasiswa["status"] = "Aktif"
 print("Setelah menambah status:", mahasiswa)
